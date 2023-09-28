@@ -1,0 +1,100 @@
+
+body { 
+    background: rgba(0,0,0,0.7) url(th.jfif) no-repeat center center fixed;
+    background-size: cover;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  .container
+  {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+* {
+    margin:0;
+    padding:0;
+}
+h1
+{
+    font-family: "Croissant_One variant0", Tofu;
+        font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(229, 247, 166);
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #92b2f7;
+  }
+  li{
+    float: left;
+  }
+
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #f080c5;
+  }
+  .content
+  {
+color: #fff; ;
+top:40;
+left:30%; 
+text-align: center;
+
+  
+}
+h4{
+ font-family: sans-serif;
+ font-size: 20px;
+ margin-left:30%;
+ text-align: center;
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+
+}
+
+h2{
+ font-family: sans-serif;
+ font-size: 20px;
+ margin-left:30%;
+ text-align: center;
+ padding:30px;
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+
+}
+.order
+{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 40%;
+
+}
+.order a
+{
+    text-decoration: none;
+    color:#fff;
+    padding: 12px 25px;
+    background-color: orangered;
+    font-weight: bolder;
+    text-align: left;
+    border-radius: 25px;
+}
